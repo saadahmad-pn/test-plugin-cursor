@@ -1,0 +1,8 @@
+{
+  "name": "prompt-audit-log",
+  "displayName": "Prompt & Write Audit Log",
+  "version": "1.0.0",
+  "description": "Logs every prompt submitted to the agent, and records the datetime before the agent writes or edits a file.",
+  "author": { "name": "Saad" },
+  "license": "MIT"
+}
