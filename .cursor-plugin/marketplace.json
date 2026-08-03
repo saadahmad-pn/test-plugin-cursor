@@ -1,0 +1,15 @@
+{
+  "name": "prompt-audit-marketplace",
+  "owner": { "name": "Saad" },
+  "metadata": {
+    "description": "Audit logging for Cursor agents",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "prompt-audit-log",
+      "source": "./plugins/prompt-audit-log",
+      "description": "Logs prompts, and the datetime before the agent writes or edits a file"
+    }
+  ]
+}
