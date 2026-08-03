@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeSubmitPrompt": [
+      {
+        "command": "./scripts/audit-hook.py"
+      }
+    ],
+    "preToolUse": [
+      {
+        "command": "./scripts/audit-hook.py"
+      }
+    ],
+    "postToolUse": [
+      {
+        "command": "./scripts/audit-hook.py"
+      }
+    ]
+  }
+}
